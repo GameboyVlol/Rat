@@ -8,9 +8,7 @@
 
 <h2>🚀 Demo</h2>
 
-[<img src="https://www.linkpicture.com/q/93365EF4-E7B1-4D88-9081-46E11CDAB011.jpeg" type="image">
-
-](<img src='https://www.linkpicture.com/q/93365EF4-E7B1-4D88-9081-46E11CDAB011.jpeg' type='image'></a>)
+<img src="https://www.linkpicture.com/q/93365EF4-E7B1-4D88-9081-46E11CDAB011.jpeg" type="image">
 
   
   
