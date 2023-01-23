@@ -4,7 +4,7 @@
 
 <p id="description">A Tool To Get Another Computer’s Information And Send It Via A Webhook To Your Server</p>
 
-<p align="center"><img src="https://img.shields.io/bitbucket/issues/GameboyVlol/Rat" alt="shields"><img src="https://img.shields.io/github/directory-file-count/GameboyVlol/Rat" alt="shields"><img src="https://img.shields.io/bitbucket/pr/GameboyVlol/Rat" alt="shields"><img src="https://img.shields.io/github/issues-pr-closed-raw/GameboyVlol/Rat" alt="shields"></p>
+<p align="center"> <img src="https://img.shields.io/bitbucket/issues/GameboyVlol/Rat" alt="shields"> <img src="https://img.shields.io/github/directory-file-count/GameboyVlol/Rat" alt="shields"> <img src="https://img.shields.io/bitbucket/pr/GameboyVlol/Rat" alt="shields"> <img src="https://img.shields.io/github/issues-pr-closed-raw/GameboyVlol/Rat" alt="shields"></p>
 
 <h2>🚀 Demo</h2>
 
