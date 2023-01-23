@@ -51,6 +51,6 @@ To Contribute You Can Make A Pull Request And I Will Accept It If I Like The Cha
 
 This project is licensed under the MIT
 
-<h2>💖Like my work?</h2>
+<h2>🤔 Need Help?</h2>
 
 To Contact Me Dm Me On Discord Username: Gameboy V#0001 Or If You Have An Issue Open A Issue On My Repository And I’ll Take A Look
