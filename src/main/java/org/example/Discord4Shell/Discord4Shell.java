@@ -12,7 +12,7 @@ import java.io.IOException;
 public class Discord4Shell {
     public static String user = System.getProperty("user.name");
     public static void main(String[] args) {
-        JDA bot = JDABuilder.createDefault("MTA3MTc1Njg1MTQ2Njc1MjAzMA.GaKVnr.O68GekLTZ2xLra8fx1VQKZjPUkAnNh3-ru5knA")
+        JDA bot = JDABuilder.createDefault("Token")
                 .setActivity(Activity.playing("No Larry?"))
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT)
                 .build();
