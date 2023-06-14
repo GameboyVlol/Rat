@@ -1,10 +1,9 @@
 package org.example.commands;
 
-import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
-import static org.example.Discord4Shell.Discord4Shell.*;
+import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
-
+import static org.example.Discord4Shell.Discord4Shell.user;
 
 public class TargetsListMessage extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent event) {
@@ -13,9 +12,7 @@ public class TargetsListMessage extends ListenerAdapter {
         }
 
         if (event.getMessage().getContentRaw().equalsIgnoreCase("TargetsList")) {
-            event.getChannel().sendMessage(user).queue();
+            event.getChannel().sendMessage(user + " ").queue();
         }
     }
-
-
 }
